@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  IntegerProc
+//  LoopCount
 //
-//  Created by NHNNEXT on 2017. 7. 20..
+//  Created by Macbook Pro on 2017. 7. 20..
 //  Copyright © 2017년 Eric Park. All rights reserved.
 //
 
@@ -14,19 +14,23 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        for _ in 0..<100000000 {
-            let a = arc4random_uniform(UInt32(10000))
-            let b = arc4random_uniform(UInt32(10000))
-            let c = arc4random_uniform(UInt32(10000))
-            var d = arc4random_uniform(UInt32(10000))
-            while(d == 0) {
-                d = arc4random_uniform(UInt32(10000))
+        var count: Int = 0
+        var isEnd: Bool = false
+        
+        let thread = Thread {
+            while isEnd == false {
+                count += 1
             }
-            
-            let result = ((a + b) * c) / d
+            print(count)
+            fatalError()
         }
         
+        thread.start()
         
+        _ = Timer.scheduledTimer(withTimeInterval: 1, repeats: false) { (timer) in
+            isEnd = true
+        }
+
     }
 
     override func didReceiveMemoryWarning() {

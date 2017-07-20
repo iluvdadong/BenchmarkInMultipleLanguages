@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  IntegerProc
+//  LoopCount
 //
-//  Created by NHNNEXT on 2017. 7. 20..
+//  Created by Macbook Pro on 2017. 7. 20..
 //  Copyright © 2017년 Eric Park. All rights reserved.
 //
 
