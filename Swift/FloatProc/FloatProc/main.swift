@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  FloatingProc
+//  FloatProc
 //
 //  Created by Macbook Pro on 2017. 7. 21..
 //  Copyright © 2017년 Eric Park. All rights reserved.
@@ -20,3 +20,4 @@ for _ in 0..<100000000 {
     
     let result = ((a + b) * c) / d
 }
+

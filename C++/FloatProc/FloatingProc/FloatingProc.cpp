@@ -9,7 +9,7 @@
 int _tmain(int argc, _TCHAR* argv[])
 {
 	Sleep(1000);
-
+	
 	srand((unsigned int)time(NULL));
 
     DWORD dwTime;
@@ -30,10 +30,11 @@ int _tmain(int argc, _TCHAR* argv[])
         iResult = ((iNum1 + iNum2) * iNum3) / iNum4;
     }
     dwLast = GetTickCount();
-	printf("ì‹œìž‘ ì‹œê°„(ms) : %d\n",dwTime);
-	printf("ì¢…ë£Œ ì‹œê°„(ms) : %d\n",dwLast);
-	printf("ê±¸ë¦° ì‹œê°„ : %d\n",dwLast - dwTime);
+	printf("½ÃÀÛ ½Ã°£(ms) : %d\n",dwTime);
+	printf("Á¾·á ½Ã°£(ms) : %d\n",dwLast);
+	printf("°É¸° ½Ã°£(ms) : %d\n",dwLast - dwTime);
 	getchar();
 
 	return 0;
 }
+

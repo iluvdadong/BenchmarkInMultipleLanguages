@@ -8,6 +8,26 @@
 * ### Swift
 * ### Ruby
 
+## Testing Environment
+
+### Desktop
+  * **CPU** : Intel Core i5-2500 3.30GHz
+  * **Memory** : 32GB 1867 MHz DDR3
+  * **OS** : macOS Sierra 10.12.4
+
+### Languages
+* **Ruby** : 2.4.0
+* **Swift** : 3.1
+* **JAVA** : JRE6
+* **C++** : c++14(g++4.2.1)
+
+### IDE
+* **Ruby** : RubyMine 2017.2
+* **Swift** : Xcode 8.3.3
+* **JAVA** : Eclipse neon.3
+* **C++** : Visual Studio 2015
+
+
 ## Functions
 
 * ### LoopCount
@@ -37,6 +57,14 @@
   	getchar();
   }
   ```
+  * Code Size
+
+![codesize](Images/LoopCount/CodeSize.png)
+
+  * Memory Usage
+
+![memoryusage](Images/LoopCount/MemoryUsage.png)
+
 * ### IntegerProc
   * Example (C++)
   ```c
@@ -77,6 +105,18 @@
   	return 0;
   }
   ```
+  * Code Size
+
+![codesize](Images/IntegerProcess/CodeSize.png)
+
+  * Memory Usage
+
+![memoryusage](Images/IntegerProcess/MemoryUsage.png)
+
+  * Execution Time
+
+![execution](Images/IntegerProcess/ExecTime.png)
+
 
 * ### FloatingProc
   * Example (C++)
@@ -118,3 +158,14 @@
   	return 0;
   }
   ```
+  * Code Size
+
+![codesize](Images/FloatProcess/CodeSize.png)
+
+  * Memory Usage
+
+![memoryusage](Images/FloatProcess/MemoryUsage.png)
+
+  * Execution Time
+
+![execution](Images/FloatProcess/ExecTime.png)
