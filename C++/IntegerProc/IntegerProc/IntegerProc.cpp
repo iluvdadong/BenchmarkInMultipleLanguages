@@ -2,9 +2,11 @@
 //
 
 #include "stdafx.h"
-#include<stdlib.h>
-#include<time.h>
-#include<windows.h>
+#include <cstdlib>
+
+#include <stdlib.h>
+#include <time.h>
+#include <windows.h>
 
 int _tmain(int argc, _TCHAR* argv[])
 {
